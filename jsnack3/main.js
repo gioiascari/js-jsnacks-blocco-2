@@ -5,3 +5,10 @@ console.log("Ok Js");
 let arrayOne = [1, 2, 3, 4, 5];
 
 let arrayTwo = [6, 7, 8];
+
+while (arrayOne > arrayTwo) {
+  arrayTwo.push(Math.floor(Math.random()));
+}
+
+console.log(arrayOne);
+console.log(arrayTwo);
