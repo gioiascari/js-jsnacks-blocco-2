@@ -4,11 +4,27 @@ console.log("Ok Js");
 //Il programma stampa la somma di tutti i numeri inseriti.
 //Esegui questo programma in due versioni, con il for e con il while.
 
-//Versione con for
+//Versione con for-----------------------------------------
+
+/*
 let somma = 0;
 
 for (let i = 0; i < 5; i++) {
   const numero = parseInt(prompt("Inserisci un numero"));
   somma += numero;
+}
+console.log(somma);
+*/
+
+//Versione con while---------------------------------------
+
+let somma = 0; // Già specificata sopra
+
+let i = 0;
+
+while (i < 5) {
+  let numero = parseInt(prompt("Inserisci un numero"));
+  somma += numero;
+  i++;
 }
 console.log(somma);
